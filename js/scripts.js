@@ -2,7 +2,7 @@ import {sizeAdjust} from './sizeAdjust.js';
 const myCode = () => {
 
   return (
-    'Hello-world'
+    'Hello-World'
   )
 };
 sizeAdjust();

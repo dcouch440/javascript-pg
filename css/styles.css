@@ -56,3 +56,10 @@ html, body {
   font-size: 288px;
 }
 
+@media only screen and (max-height: 600px){
+  #buttonCluser {
+    top: 2%;
+    right: 2%;
+  }
+}
+
