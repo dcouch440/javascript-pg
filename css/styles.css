@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: goldenrod;
+  text-shadow: 1px 1px 20px rgb(0, 0, 0);
+  background-color: rgb(26, 26, 26);
+  font-size: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buttonCluser {
+  position: absolute;
+  display: flex;
+  top: 20%;
+  right: 20%;
+}
+#buttonCluser button {
+  border: 2px solid goldenrod;
+  padding: 12px 20px;
+  margin: 0 5px;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 800;
+  text-shadow: 1px 0px 2px rgb(158 158 158);
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 14px;
+}
+#buttonCluser button:hover {
+  box-shadow: 0px 0px 5px white, 0px 0px 0px 2px goldenrod;
+  cursor: pointer;
+  background-color: rgba(134, 134, 134, 0.335);
+  transition: .3s;
+}
+#buttonCluser button:focus {
+  outline-style: none;
+  box-shadow: 0px 0px 0px 5px white;
+}
+.small {
+  font-size: 36px;
+}
+.medium {
+  font-size: 72px;
+}
+.large {
+  font-size: 144px;
+}
+.xlarge {
+  font-size: 288px;
+}
+
