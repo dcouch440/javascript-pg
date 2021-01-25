@@ -4,7 +4,7 @@ export const sizeAdjust = () => {
 
   const addEvents = (buttons = myButtons) => {
     buttons.map(button => {
-      button.addEventListener('click', (event) => {
+      button.addEventListener('click', () => {
         const id = button.id
         if (id === '36px') {
           getRoot.className = 'small'
