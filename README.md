@@ -6,7 +6,7 @@
 * * *
 
 ## Description  
-This app uses innerHTML to display return values in plain text to negate having to go to the console every time you want to test a line of code.
+This app uses innerHTML to display return values in plain text to negate having to go to the console every time you want to test a simple function or concept.
 * * *
 
 
